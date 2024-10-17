@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:netshift_vpn/home_page.dart';
-import 'package:netshift_vpn/light_dark_theme.dart';
-import 'package:netshift_vpn/theme_controller.dart';
+import 'package:netshift_vpn/view/home_page.dart';
+import 'package:netshift_vpn/theme/light_dark_theme.dart';
+import 'package:netshift_vpn/controller/theme_controller.dart';
 
 void main() async {
   await GetStorage.init();

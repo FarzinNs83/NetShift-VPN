@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:netshift_vpn/light_dark_theme.dart';
+import 'package:netshift_vpn/theme/light_dark_theme.dart';
 
 class ThemeController extends GetxController {
   var isDarkMode = false.obs;
